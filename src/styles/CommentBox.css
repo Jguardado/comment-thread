@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.textBox {
+  flex: 4;
+  font-weight: bold;
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+}
+
+.textBox:focus {
+  border-radius: 50px;
+  outline: paleturquoise;
+}
+
+.addCommentContainer {
+  flex: 1;
+}
+
+.addCommentButton {
+  margin-right: 8px;
+}

@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.add-comment-section {
+  background-color: #8f9db7;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px;
+}
+
+.editingComment {
+  background-color: #50a647;
+}
+
+.primaryButton {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 35px;
+  border: none;
+  background: #3171f2;
+  width: auto;
+  color: white;
+  text-decoration: none;
+}
+
+.primaryButton:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.primaryButton:hover {
+  background: #154380;
+}
+
+.secondaryButton {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 35px;
+  border: none;
+  background: #cfcfd0;
+  width: auto;
+  color: #3b3d3f;
+  text-decoration: none;
+}
+
+.secondaryButton:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.secondaryButton:hover {
+  background: #8f9090;
+  color: white;
+}
+
+.leftMargin {
+  margin-left: 8px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+}

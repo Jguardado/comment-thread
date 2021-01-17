@@ -1,0 +1,21 @@
+.replyButtons {
+  align-self: flex-end;
+}
+
+.replySectionFlex {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 24px;
+}
+
+.replySectionContainer {
+  width: 70%;
+  background-color: #f1f1f2;
+  padding: 24px;
+}
+
+.replyMessageContent {
+  border-bottom: 1px solid #749cd0;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
